@@ -16,25 +16,16 @@
 $(call inherit-product, device/xiaomi/raphael/device.mk)
 
 # Inherit some common YAAP stuff.
-$(call inherit-product, vendor/xtended/config/common_full_phone.mk)
+$(call inherit-product, vendor/kangos/config/common.mk)
 
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_GAPPS_ARCH := arm64
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := xtended_raphael
+PRODUCT_NAME := kangos_raphael
 PRODUCT_DEVICE := raphael
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi K20 Pro
 PRODUCT_MANUFACTURER := Xiaomi
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
-
-# Xtension
-XTENDED_BUILD_TYPE := OFFICIAL
-XTENDED_MAINTAINER := Ralf979
-
-SELINUX_IGNORE_NEVERALLOWS=true
-
-# FOD
-EXTRA_FOD_ANIMATIONS=true

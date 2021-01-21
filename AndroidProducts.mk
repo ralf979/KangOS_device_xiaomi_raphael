@@ -1,4 +1,4 @@
-# Copyright (C) 2020 xtended
+# Copyright (C) 2020 kangos
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -13,9 +13,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/xtended_raphael.mk
+    $(LOCAL_DIR)/kangos_raphael.mk
 
 COMMON_LUNCH_CHOICES := \
-    xtended_raphael-user \
-    xtended_raphael-userdebug \
-    xtended_raphael-eng
+    kangos_raphael-user \
+    kangos_raphael-userdebug \
+    kangos_raphael-eng
